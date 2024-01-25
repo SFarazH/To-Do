@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.mainDiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.todo{
+  background-color: aquamarine;
+}
+
+/* .todo input, button{
+  background-color: ;
+} */
+
+.todoItem{
+  color: red;
+}
